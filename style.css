@@ -55,8 +55,8 @@ nav{
 .container-fluid{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 /* Zmiana marginesów dla lepszego efektu wizualnego */
 .card{
