@@ -45,7 +45,7 @@ nav{
     color: #115e3e;
 }
 .przyciskszukaj:hover{
-    border: lightgray;
+    border: lightgray 1px solid;
     background: #115e3e;
     color: lightgray;
 }
@@ -62,6 +62,15 @@ nav{
 .card{
     margin-top: 50px;
     margin-left: 20px;
+    height: 550px;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.zdjecie{
+    height: 190px;
 }
 
 /* Personalizacja większych kartek, użycie flexboxu, aby ustawić w odpowiednim miejscu */
@@ -85,11 +94,19 @@ nav{
     padding: 10px;
 }
 
-/* Prosta stopka strony z moim nazwiskiem */
+/* Prosta stopka strony z moim nazwiskiem i ikoną*/
 
 .futer{
     border-top: #115e3e 4px solid;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
+/* Nadanie kilku stylów do ikony */
 
+.ikonacss{
+    border-left: #115e3e 2px solid;
+    padding: 10px;
+    margin: 10px;
+}
